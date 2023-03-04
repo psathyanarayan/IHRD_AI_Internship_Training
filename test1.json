@@ -1,0 +1,218 @@
+
+
+[
+  {
+    "id": "Bxd953J3gX4R5Dx",
+    "key": "label_1",
+    "label": "Configuration",
+    "value": "string",
+    "data_type": "str",
+    "field": "label",
+    "child": [
+      {
+        "id": "EJ3dCfOJ6R9I8Rr",
+        "key": "country",
+        "label": "Country",
+        "value": "australia",
+        "data_type": "str",
+        "field": "select",
+        "child": null,
+        "index": 1
+      },
+      {
+        "id": "XQusm9LMHpkgnYl",
+        "key": "state",
+        "label": "State",
+        "value": "northern territory",
+        "data_type": "str",
+        "field": "select",
+        "child": null,
+        "index": 2
+      },
+      {
+        "id": "trDzoxFjgoqW5Z5",
+        "key": "operational_status",
+        "label": "Operational Status",
+        "value": "active",
+        "data_type": "str",
+        "field": "select",
+        "child": null,
+        "index": 4
+      },
+      {
+        "id": "JB4ZAOaQvZYJ82M",
+        "key": "hco_type",
+        "label": "HCO Type",
+        "value": "ambulatory surgery center",
+        "data_type": "str",
+        "field": "select",
+        "child": null,
+        "index": 5
+      },
+      {
+        "id": "vIjkT6ZEiqdTc36",
+        "key": "show_result_on_map",
+        "label": "Show result on map",
+        "value": true,
+        "data_type": "int",
+        "field": "checkbox",
+        "child": [
+          {
+            "id": "xrhHkG6QBNO1bkF",
+            "key": "show_result_per_page",
+            "label": "Show result per page",
+            "value": 15,
+            "data_type": "int",
+            "field": "select",
+            "child": null,
+            "index": 1
+          }
+        ],
+        "index": 6
+      },
+      {
+        "id": "ERc9M1TNDDsB1U1",
+        "key": "highlight_matching_score",
+        "label": "Highlight matching token in results with ",
+        "value": true,
+        "data_type": "boolean",
+        "field": "checkbox",
+        "child": [
+          {
+            "id": "nQTeYoPynvThW4v",
+            "key": "highlight_matching_color",
+            "label": "",
+            "value": "#0ccfec",
+            "data_type": "str",
+            "field": "color",
+            "child": null,
+            "index": 1
+          },
+          {
+            "id": "GJVF8vIf95eTrPe",
+            "key": "max_score",
+            "label": "Mark High Score matches",
+            "value": 70,
+            "data_type": "int",
+            "field": "number",
+            "child": null,
+            "index": 2
+          },
+          {
+            "id": "diAoSxutVFHJZ0p",
+            "key": "max_score_color",
+            "label": "",
+            "value": "#71da09",
+            "data_type": "str",
+            "field": "color",
+            "child": null,
+            "index": 3
+          },
+          {
+            "id": "i4MTi4hUWrfYvXm",
+            "key": "med_score_color",
+            "label": "",
+            "value": "#e8ce0d",
+            "data_type": "str",
+            "field": "color",
+            "child": null,
+            "index": 4
+          },
+          {
+            "id": "IfHS5neMdZQnc9M",
+            "key": "min_score",
+            "label": "Mark min Score matches",
+            "value": 30,
+            "data_type": "int",
+            "field": "number",
+            "child": null,
+            "index": 5
+          },
+          {
+            "id": "Et279J8acC5nZEE",
+            "key": "min_score_color",
+            "label": "",
+            "value": "#ef0606",
+            "data_type": "str",
+            "field": "color",
+            "child": null,
+            "index": 6
+          }
+        ],
+        "index": 7
+      },
+      {
+        "id": "uGPRGziMgiFOB5M",
+        "key": "hide_low_score",
+        "label": "Hide low score result in manual search",
+        "value": true,
+        "data_type": "boolean",
+        "field": "checkbox",
+        "child": null,
+        "index": 8
+      }
+    ],
+    "index": 1
+  },
+  {
+    "id": "QKJSve8uczWHHnX",
+    "key": "adv_settings",
+    "label": "Advanced Settings",
+    "value": "",
+    "data_type": "str",
+    "field": "label",
+    "child": [
+      {
+        "id": "bB8V9VVV2L1V4jp",
+        "key": "resolve_phy_group",
+        "label": "Automatically resolve phy group",
+        "value": true,
+        "data_type": "boolean",
+        "field": "checkbox",
+        "child": null,
+        "index": 1
+      },
+      {
+        "id": "PkHKGRCNZ2yh8e9",
+        "key": "auto_re_run",
+        "label": "Automatically re-run search When",
+        "value": "",
+        "data_type": "str",
+        "field": "label",
+        "child": [
+          {
+            "id": "OZiDr6y1neN0xdn",
+            "key": "return_zero_result",
+            "label": "Search Returns 0 results",
+            "value": true,
+            "data_type": "boolean",
+            "field": "checkbox",
+            "child": null,
+            "index": 1
+          },
+          {
+            "id": "rHrJh7EO8yLv7AM",
+            "key": "best_score",
+            "label": "Best Score",
+            "value": true,
+            "data_type": "boolean",
+            "field": "checkbox",
+            "child": [
+              {
+                "id": "jQ56YLkEobkTVWE",
+                "key": "best_score_logic",
+                "label": "",
+                "value": "<",
+                "data_type": "str",
+                "field": "select",
+                "child": null,
+                "index": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
+
